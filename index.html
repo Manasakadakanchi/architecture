@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;                                                                                                                                                               
+            padding: 0;
+
+            box-sizing: border-box;
+            scrollbar-width: none;
+        }
+        .container{
+            /* display: inline-block; */
+            /* position: relative; */
+            width: 100%;
+            height: 6vh;
+            /* margin-top: 20px; */
+            background-color: white;
+            position: fixed;
+            top: 0;
+            z-index: 5;
+        }
+    .list{
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 20px;
+    }
+    .list span{
+        padding: 10px;
+    }
+    .image{
+        position: relative;
+        padding-bottom: 30px;
+    }
+    .image img{
+        width: 100vw;
+        
+    }
+    .image div{
+        position: absolute;
+        z-index: 1;
+        top: 60%;
+        left: 50%;
+        width: 200px;
+        height: 200px;
+        margin-left: -100px;
+        margin-top: -100px;
+    }
+    .photos1{
+        position: relative;
+        display: flex;
+        padding-left: 20px;
+    }
+    .photos1 img{
+        width: 90%;
+        height: 100%;
+    } 
+    .photos1 p{
+       position: absolute;
+       top: 0;
+       background-color: black;
+       color: white;
+    }
+    .photos2{
+        position: relative;
+        display: flex;
+        padding-left: 20px;
+    }
+    .photos2 img{
+        width: 90%;
+        height: 100%;
+    } 
+    .photos2 p{
+       position: absolute;
+       top: 0;
+       background-color: black;
+       color: white;
+    }
+    .about{
+        display: flex;
+        gap: 20px;
+    }
+    .about div {
+            text-align: center;
+            width: 22%;
+            padding: 20px;
+        }
+    .about img{
+        width: 100%;
+        height: 300px;
+    }
+    .about h3{
+        color: grey;
+    }
+    .about button{
+        background-color: silver;
+        color: black;
+        width: 100%;
+    }
+    .footer input{
+        width: 100vw;
+        height: 5vh;
+    }
+    .footer button{
+        background-color: black;
+        color: white;
+        width: 30%;
+        height: 5vh;
+    }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+         <h2>BR ARCHITECTURE</h2>
+        <div class="list">
+            <span>Project</span>
+            <span>About</span>
+            <span>Contact</span>
+        </div>
+    </div>
+
+        <div class="image">
+            <img src="https://www.w3schools.com/w3images/architect.jpg" alt="">
+            <div><h1>BR</h1>ARCHITECTURE</div>
+        </div>
+    <h1>Project</h1>
+    <hr>
+    <br>
+    <br>
+    <div class="photos1">
+        <div>
+            <img src="https://www.w3schools.com/w3images/house5.jpg" alt="">
+            <p>Summer House</p>
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/house2.jpg" alt="">
+            <p>Brick House</p>
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/house3.jpg" alt="">
+            <p>Renovated</p>
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+            <p>Barn House</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="photos2">
+        <div>
+            <img src="https://www.w3schools.com/w3images/house2.jpg" alt="">
+            <p>Summer House</p>
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/house5.jpg" alt="">
+            <p>Brick House</p>
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/house4.jpg" alt="">
+            <p>Renovated</p>
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/house3.jpg" alt="">
+            <p>Barn House</p>
+        </div>
+    </div>
+    <h1>About</h1>
+    <br>
+    <hr>
+    <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <br>
+    <br>
+    <div class="about">
+        <div>
+            <img src="https://www.w3schools.com/w3images/team2.jpg" alt="">
+            <h1>Jhon Joe</h1>
+            <h3>CEO & FOUNDER</h3>
+            <P>Phasellus eget enim eu lectus faucibus vestibulum.Suspendisse sodales pellentesque elementum.</P>
+            <button>Contact</button>
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/team1.jpg" alt="">
+            <h1>Jhon Doe</h1>
+            <h3>Architect</h3>
+            <P>Phasellus eget enim eu lectus faucibus vestibulum.Suspendisse sodales pellentesque elementum.</P>
+            <button>Contact</button>
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/team3.jpg" alt="">
+            <h1>Mike Ross</h1>
+            <h3>Architect</h3>
+            <P>Phasellus eget enim eu lectus faucibus vestibulum.Suspendisse sodales pellentesque elementum.</P>
+            <button>Contact</button>
+        </div>
+        <div>
+            <img src="https://www.w3schools.com/w3images/team4.jpg" alt="">
+            <h1>Dan Star</h1>
+            <h3>Architect</h3>
+            <P>Phasellus eget enim eu lectus faucibus vestibulum.Suspendisse sodales pellentesque elementum.</P>
+            <button>Contact</button>
+        </div>
+    </div>
+    <h1>Contacts</h1>
+    <br>
+    <hr><br><br>
+    <p>Lets get in touch and talk about your next project.</p>
+    <br><br>
+    <div class="footer">
+        <input type="text" placeholder="name"><br><br>
+        <input type="text" placeholder="Email"><br><br>
+        <input type="text" placeholder="Subject"><br><br>
+        <input type="text" placeholder="comment"><br><br>
+        <button>SUBMIT</button>
+    </div>
+    <br>
+    <br>
+    <div class="route">
+        <img src="https://www.w3schools.com/w3images/map.jpg" alt="">
+    </div>
+</body>
+</html>
